@@ -57,9 +57,9 @@ collections:
                   name: "icon"
                   widget: "image"
         - label: "TEDDY page"
-            name: "teddy"
-            file: "_data/TEDDY.yml"
-            fields: 
+          name: "teddy"
+          file: "_data/TEDDY.yml"
+          fields: 
             - { label: 'Title', name: 'title', widget: 'string'}
-            - { label: 'Content', name: 'markdown', widget: 'markdown' }
+            - { label: 'Content', name: 'content', widget: 'markdown' }
 
