@@ -2,23 +2,18 @@
 layout: homepage
 title: TAPIR
 ---
- <div class="largeimg">
+ <div class="largeimg" style="background-image: url({{site.data.home.banner.image}})">
     <div class="container hero">
                 <div class="row">
                     <div class="col-md-4 col-sm-5 col-md-offset-7 col-sm-offset-6 whitebg">
-                        <h3 align="center">Do you have GPA (Wegener&rsquo;s)? <br>
-Are you taking prednisone between 5-20 mg?                        </h3>
-                        <button type="button" class="btn btn-lg btn-join btn-block" onclick="window.location.href='join/index.htm'">Join TAPIR</button>                         
+                        <h3 align="center">{{site.data.home.banner.jointitle}}</h3>
+                        <button type="button" class="btn btn-lg btn-join btn-block" onclick="window.location.href='join/index.htm'">Join TAPIR</button>               
                         <ul> 
                             <li>For patients with diagnosed GPA</li>
                             <li>Participate from anywhere - online!</li>                             
                             <li>Must currently be in remission</li>                             
                             <li>Continue to see your own doctor</li>
-                            <li> <strong>Now Open to Patients Taking Rituximab</strong>
-                              <div>
-                                <div> </div>
-                              </div>
-                            </li>
+                            <li> <strong>Now Open to Patients Taking Rituximab</strong></li>
                         </ul>
                         <p>*other conditions may apply. <a href="eligibility/index.htm">Learn more</a>.</p>
                     </div>
@@ -28,16 +23,16 @@ Are you taking prednisone between 5-20 mg?                        </h3>
         <div class="container TAPIRinfo">
             <div class="row">
                 <div class="col-sm-6 col-xs-12 col-md-5 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                    <img src="img/icons/clipboard.gif" class="img-responsive icon hidden-xs">
-                    <h2>About the TAPIR Trial</h2> 
-                    <p>The Assessment of Prednisone In Remission (TAPIR) trial is comparing two approaches to treatment: a low dose of prednisone, or no prednisone, for patients with granulomatosis with polyangiitis (GPA, Wegener's).</p>
-                    <p><a href="study/index.htm">Learn more about this trial &gt; </a></p>
+                    <img src="{{site.data.home.homeabout.icon}}" class="img-responsive icon hidden-xs">
+                    <h2>{{site.data.home.homeabout.title}}</h2> 
+                    <p>{{site.data.home.homeabout.text}}</p>
+                    <p><a href="study/index.htm">{{site.data.home.homeabout.link}}</a></p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-5">
-                    <img src="img/icons/doctor.gif" class="img-responsive icon hidden-xs" />
-                    <h2>Information for physicians</h2> 
-                    <p>More about our goals and the methods used in this trial. Meet our study team.</p>
-                    <p><a href="physicians/index.htm">Get the facts &gt;</a></p>
+                    <img src="{{site.data.home.for_phys.icon}}" class="img-responsive icon hidden-xs" />
+                    <h2>{{site.data.home.for_phys.title}}</h2> 
+                    <p>{{site.data.home.for_phys.text}}</p>
+                    <p><a href="physicians/index.htm">{{site.data.home.for_phys.link}}</a></p>
                 </div>
             </div>
         </div>
