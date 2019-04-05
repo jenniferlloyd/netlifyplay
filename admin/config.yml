@@ -56,5 +56,10 @@ collections:
                 - label: "Physician_Icon"
                   name: "icon"
                   widget: "image"
-
+        - label: "TEDDY page"
+            name: "teddy"
+            file: "_data/TEDDY.yml"
+            fields: 
+            - { label: 'Title', name: 'title', widget: 'string'}
+            - { label: 'Content', name: 'markdown', widget: 'markdown' }
 
