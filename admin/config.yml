@@ -32,7 +32,7 @@ collections:
             fields: 
               - { label: "About title", name: "title", widget: "string" }
               - { label: "About text", name: "text", widget: "text" }
-              - { label: "About_link", name: "body", widget: "markdown" }
+              - { label: "About_link", name: "link", widget: "markdown" }
               - { label: "About_Icon", name: "icon", widget: "image" }
           - label: "For_Physicians"
             name: "for_phys"
@@ -40,5 +40,5 @@ collections:
             fields: 
               - { label: "Physician_Title", name: "title", widget: "string" }
               - { label: "Physician_text", name: "text", widget: "text" }
-              - { label: "Physician_link", name: "body", widget: "markdown" }
+              - { label: "Physician_link", name: "link", widget: "markdown" }
               - { label: "Physician_Icon", name: "icon", widget: "image" }
