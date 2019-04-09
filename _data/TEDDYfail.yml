@@ -1,9 +1,6 @@
 title: TEDDY Information for Researchers
-content: 
-  The TEDDY Study is committed to maximizing its contribution to the greater
-  scientific community. Beyond published findings, the TEDDY Study may also
-  offer researchers everything from methods and technologies developed on study
-  to the actual data and samples collected from participants.
+content: |
+  The TEDDY Study is committed to maximizing its contribution to the greater scientific community. Beyond published findings, the TEDDY Study may also offer researchers everything from methods and technologies developed on study to the actual data and samples collected from participants.
 
 
   ## Current TEDDY Invitations to Negotiate (ITN)
@@ -11,18 +8,14 @@ content:
 
   - Epigenetics Lab
 
-  - Addendum #1
+  - "Addendum #1"
 
 
   ## Data Assets
 
 
-  A variety of different data types are collected as a part of the TEDDY study,
-  including clinical metadata and laboratory test result data across various
-  'omics analytes. The TEDDY Data Coordinating Center (DCC) manages, curates,
-  integrates, and provisions these data assets for analysis by TEDDY and
-  approved external investigators. Existing TEDDY clinical and ‘omics data
-  assets are summarized below and detailed in the linked documents.
+  A variety of different data types are collected as a part of the TEDDY study, including clinical metadata and laboratory test result data across various 'omics analytes. The TEDDY Data Coordinating Center (DCC) manages, curates, integrates, and provisions these data assets
+  for analysis by TEDDY and approved external investigators. Existing TEDDY clinical and ‘omics data assets are summarized below and detailed in the linked documents.
 
 
   Clinical Metadata
@@ -113,7 +106,7 @@ content:
   TEDDY NIH Data Repository Submissions
 
 
-  Data Request Instructions:
+  "Data Request Instructions:"
 
 
   * The database of Genotypes and Phenotypes (dbGAP)
@@ -151,7 +144,7 @@ content:
   ## Additional Documentation
 
 
-  **Study Overview**
+  ** Study Overview **
 
 
   * TEDDY Manual of Operations (35 MB)
@@ -169,7 +162,7 @@ content:
   * Thyroid Antibodies Summary
 
 
-  **Sample and Assay Details**
+  ** Sample and Assay Details **
 
 
   * TEDDY Blood Sampling Frequency and Volumes
